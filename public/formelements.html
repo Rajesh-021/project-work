@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form elements</title>
+    <style>
+      .Details {
+            font-family: Arial;
+            font-size: 15px;
+            margin: 50px;
+        }
+        .Details div{
+            padding: 10px;
+
+
+        }
+        .detls input{
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        .regdButton{
+            margin-left: 700px;
+            background-color: orange;
+            font-size: 20px;
+        
+
+        }
+        legend{
+            text-align: center;
+        }
+      
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Login</legend>
+        <form name="Details" method="post" class=" Details" id="Details">
+         
+            <div class="detls">
+              Name:<br>  
+             <input type="text" placeholder="First Name" name="fstNmae"  required autofocus>   <input type="text"name="lstNmae" placeholder="Last Name"  required>
+         </div>
+         <div class="detls">
+            Address: <br>
+                <input type="text"name="stateNmae" placeholder="State" required><br>
+                <input type="text"name="distName" placeholder="Dist"  required><br>
+                <input type="text" name="vilName" placeholder="Village"  required><br>
+                <input type="text" name="pinCode" maxlength="6" placeholder="Pin Code"  required><br>
+             </div>
+             <div >
+                Phone No: <input type="text" maxlength="10" minlength="10"  name="phnNo" placeholder="Phone No"  required>
+             </div>
+             <button name="detailsReg" class="regdButton"> Register</button>
+        
+    
+        
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend>forms</legend>
+        <form name="foRm" method="post" id="foRm">
+          OTP:  <input name="typing" type="text" value="typing........" size="60px">
+          <button >ok</button>
+        </form>
+    </fieldset>
+    
+    
+</body>
+</html>

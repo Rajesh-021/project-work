@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body form{
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form name="quantiFair" method="get">
+    
+    <input type="text" pattern="SBI[[OD]|[HY]|[BI]|[TS]|[TL]]00[\d]{5}">
+    <input type="text" NAME pattern="(?=.*\s)[A-Z]{4,10}">
+   <input type="text" name pattern="(?=.*\s)[a-z]{4,15}">
+   <input type="text" pattern="[A-Z][a-Z0-9]{4,15}" placeholder="Name">
+   <input type="text" pattern="[a-Z][A-Z0-9@#$%&!^*]">
+  
+   
+    <button >ok</button>
+</form>
+<form name="rangeForm" >
+    <input type="range" step="5" value="50">
+    <div>
+        <span>10,000 </span>
+        <span>1,00,000</span>
+    </div>
+    <input type="number" step="2">
+    <fieldset>
+      <legend>image</legend>
+      <figure>
+        <img src="../public/image/fashion.jpg" >
+        <figcaption>
+            <input type="color" value="red" >
+
+        </figcaption>
+      </figure>
+    </fieldset>
+
+    
+
+</form>
+<form name="urlForm" >
+ <input type="url" placeholder="URL enter here">
+ <button>DONE</button>
+</form>
+<form name="eMail" novalidate>
+    <input type="email" name="email" placeholder="enter your mail here" pattern="[0-9]{3}@gmail.com" >
+    <button>ok</button>
+
+</form>
+<form name="radioForm">
+    <input type="radio" checked name="gender">male 
+    <input type="radio" name="gender">female
+    <input type="radio" name="gender">Other
+</form>
+<form name="datetimeForm">
+    <input type="date" min="2000-05-12" max="2000-05-20">
+    <input type="datetime-local" min="2000-05-24" max="2022-09-09">
+    <button>ok</button>
+</form>
+<form name="fileForm"> 
+    <input type="file" multiple accept=".png">
+</form>
+
+<fieldset>
+    <legend>CHECKBOX</legend>
+
+
+</body>
+</html>

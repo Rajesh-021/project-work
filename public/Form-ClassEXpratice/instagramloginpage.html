@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram-login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        section{
+            display: grid;
+           grid-template-columns: 5fr 6fr;
+           background-color: whitesmoke;
+        }
+        h1{
+            font-family: segoe script;
+            font-weight: bold;
+            text-align: center;
+        }
+        .log{
+            align-items: left;
+        }
+        .logfb{
+            color: blue;
+            font-size: 20px;
+            font-family: arial;
+            text-align: center;
+        }
+        
+        form{
+            border: 1px solid gray;
+            width: 400px;
+           
+            margin-top: 50px;
+            align-items: center;
+        }
+        form div{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .store{
+            display: flex;    
+            margin-top: 20px;
+        }
+        
+     .box{
+            margin-top: 30px;
+            border: 1px solid gray;
+            width: 400px;
+           
+        }
+        
+        .gta{
+            margin-left: 155px;
+            margin-top: 10px
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        li{
+            padding-left:15px;
+        }
+        .selcopy{
+           display: flex;
+           justify-content: center;
+        }
+        .selcopy div{
+            padding-left: 20px;
+        }
+        footer{
+            color: grey;
+            font-family: arial;
+            font-size: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <main class="image">
+            <img src="../image/insta5.png" width="650px "height=600px>
+        </main>
+        <main class="log">
+           <form name="instaLogpage">
+            <h1 >Instagram</h1>
+            <div class="">
+                <input type="number email text" required class="form-control mt-5" name="id" placeholder="phone number,username, or email">
+            </div>
+            <div>
+                <input type="password" required class="form-control mt-4" name="password" placeholder="password">
+            </div>
+            <div>
+                <button class="btn btn-info w-100 mt-4">Log In</button>
+            </div>
+            <div align="center" class="mt-4">
+               <b>--------------OR--------------</b> 
+            </div>
+            <div class="logfb mt-3">
+                <span class="bi bi-facebook mt-5"> Log in with Facebook</span>
+            </div>
+            <div align="center" class="mt-4">
+                <span>Forget password?</span>
+            </div>
+           </form>
+           <div class="box"align="center">
+              <span class="sign">Don't have an account?<font color="blue">Sign up</font></span>
+           </div>
+           <div class="gta">
+             <span>Get the app.</span> 
+           </div>
+           <div class="store">
+               <div>
+                 <span><img src="../image/applestore.png" width="200px" ></span>
+                 <span><img src="../image/playstore.png" width="150px" ></span>
+                </div>
+           </div>
+        </main>
+    </section>
+    <footer>
+        <div >
+            <ul>
+                <li>Meta</li>
+                <li>About</li>
+                 <li>Blog</li>
+                 <li>Jobs</li>
+                 <li>Help</li>
+                 <li>API</li>
+                 <li>Privacy</li>
+                 <li>Terms</li>
+                 <li>Top Accounts</li>
+                 <li>Hashtags</li>
+                 <li>Locations</li>
+                 <li>Instagram Lite</li>
+                 <li>Contact Uploading & Non-Users</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li> Dance</li>
+                <li> Food & Drink</li>
+                <li>Home & Garden</li>
+                <li> Music</li>
+                <li>Visual Arts</li>
+             </ul>
+         </div>    
+         <div class="selcopy">
+            <div>
+                <select name="lang">
+                    <option value="language">select Language</option>
+                    <option value="hindi"> HINDI</option>
+                    <option value="english">ENGLISH</option>
+                </select>
+              </div>
+              <div>
+                &copy; 2022 Instagram from Meta
+              </div>
+         </div>                                                           
+    </footer>
+    
+</body>
+</html>

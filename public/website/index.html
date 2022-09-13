@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh.com</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            background-color: rgb(250, 247, 247);
+            color: black;
+            display: flex;
+          justify-content: center;
+           
+            height: 3cm;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 30px;
+          
+
+        }
+        header span{
+               margin-top: 0.6cm;
+        }
+        .fstnav{
+          display: flex;
+         justify-content: space-between;
+          font-family: Arial;
+          font-weight: bold;
+          font-size: 0.4cm;
+          background-color: rgb(25, 23, 23);
+          color: rgb(147, 145, 145);
+        
+          border-radius: 10px;
+          border: solid 2px black;
+          height: 30px;
+          width: 98%;
+         
+          padding: 5px;
+          
+       
+        }
+        .div1{
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        .fstnav .div1 :hover{
+            color:whitesmoke;
+        }
+        .fstnav .div2 :hover{
+            color:blanchedalmond
+        }
+        .div1 span{
+            padding: 7px;
+           
+        }
+       .div2{
+            margin-right: 10px;
+            margin-top: 4px;
+            
+         }
+         body{
+            border: 3px solid rgb(63, 63, 65);
+            border-radius: 3px;
+          
+            box-shadow: 2px 4px 9px black;
+            border-top: white 5px solid;
+            
+         }
+         
+         
+         .fmn{
+            margin-top:30px;
+         }
+         .smn{
+            height: 4cm;
+            text-align: center;
+            line-height: 2cm;
+            font-size: 0.5cm;
+            font-weight: bold;
+            font-family: arial;
+            margin-top: 40px;
+         }
+         .span1{
+            border: 15px solid goldenrod;
+           
+            background-color: goldenrod;
+            border-radius: 10px;
+            color: beige;
+            
+            
+         }
+         .span2{
+            background-color: lightseagreen;
+            border: 15px solid  lightseagreen;
+            border-radius: 10px;
+            color: beige;
+         }
+         pre{
+            font-family: arial;
+            
+            font-size:0.4cm ;
+            
+            margin-left:23% ;
+         }
+         .tmain{
+            display: flex;
+            justify-content: space-between;
+           height: 10cm;
+
+         }
+         thead .blank{
+            color: blue;
+         }
+         .fmain img:hover{
+
+            height: 300px;
+            width: 450px;
+            
+
+         }
+         .div4{
+            display: grid;
+           grid-template-columns:  2fr 2fr 2fr 2fr 2fr 2fr;
+         }
+         .smain{
+            height: 15cm;
+            background-color: aqua;
+            font-family: arial;
+            margin-bottom: 90px;
+            
+         }
+         .smainu{
+            text-align: center;
+            font-size: 1cm;
+            padding: 40px;margin-bottom: 30px;
+         }
+         .div4 span{
+            font-size: 60px;
+            margin-left: 50px;
+            
+         }
+         .div5{
+            margin-left: 20px;
+            margin-right: 20px;
+          text-align: center;
+            font-weight: bold;
+            font-size: 0.6cm;
+         }
+         .div5 p{
+        font-size: 0.4cm;
+        font-weight: 100;
+        line-height: 30px;
+        padding: 20px;
+
+         }
+         
+        
+         
+         .div6{
+            display: flex;
+           justify-content: space-between;
+            height: 8cm;
+            margin-top: 50px;
+            font-family: arial;
+            margin: 20px; 
+            margin-bottom: 30px;
+            
+         }
+         
+         .cl1{
+            font-size: 2cm;
+            color: rgba(50, 221, 8, 0.933);
+            margin-left: 10px;
+            margin-top: 20px;
+         }
+         .cl2{
+            font-size: 2cm;
+            color:red;
+            margin-left: 10px;
+            margin-top: 20px;
+         }
+         .question{
+            font-size: 0.4cm;
+            color: black;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-top: 20px;
+           
+         }
+         .cl3{
+            font-size: 2cm;
+            color:blue;
+            margin-left: 10px;
+            margin-top: 20px;
+         }
+         .div7{
+            text-align: center;
+            font-family: arial;
+            height: 6cm;
+
+            
+         } 
+         .callButton button{
+            padding: 20px;
+         }
+         .request{
+            font-weight: bold;
+            font-size: 20px;
+            color: black;
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 5px;
+           
+            
+         }
+         .faq{
+            font-weight: bold;
+            font-size: 15px;
+            color: black;
+            background-color: gray;
+            border: 2px solid black;
+            border-radius: 5px;
+            }
+            .request:hover{
+                font-size: 21px;
+                background-color: aquamarine;
+            }
+            .eigmain{
+                background-color: gray;
+                height: 10cm;
+                text-align: center;
+                border: 2px solid black;
+                border-radius: 5px;
+                box-shadow: 2px 2px 3px black;
+            }
+            .div8{
+                font-family: arial;
+                font-size: 0.8cm;
+                margin-top:1cm ;
+            }
+            .div9{
+               display: grid; 
+              grid-template-columns: 4fr 4fr  4fr 4fr;
+              margin-top: 1cm;
+
+            }
+            .timer{
+                font-size: 1cm;
+                font-weight: bold;
+                margin-bottom: 1cm;
+                
+            }
+            .place{
+                font-size: 0.5cm;
+                color: black;
+                margin: 10px;
+                font-weight:bold ;
+            }
+            .package{
+                font-size: 0.7cm;
+                letter-spacing: 2px;
+                margin: 10px;
+            }
+            .dur{
+                font-size: 0.5cm;
+                color: black;
+                margin: 10px;
+                font-weight:bold ;
+
+            }
+            .bline{
+                text-align: center;
+                margin-top: 50px;
+            }
+            .nimain{
+                height: 14cm;
+                background-color: whitesmoke;
+                border: 2px solid gray;
+                margin-top: 30px;
+            }
+         .ftop{
+            display: flex;
+            justify-content: space-between;
+         }
+         .ftopimg {
+            margin-left: 40px;
+             margin-top: 40px;
+             margin-right: 40px;
+             border: 3px solid black;
+             border-radius: 5px;
+             box-shadow: 4px 6px 7px black;
+         }
+         .ftopimg h3{
+            font-family: arial;
+        text-align: center;
+         }
+         .ftopimg p{
+            font-family: arial;
+            text-align: justify;
+            padding: 10px;
+         }
+         .ftopimg img{
+            margin-left: 20px;
+         }
+         .services{
+            text-align: center;
+            font-family: arial;
+            font-size: 30px;
+            margin-top: 20px;
+         }
+         footer {
+            font-family: arial;
+            background-color: black;
+            color: wheat;height: 10cm;
+            
+           
+         }
+         .footerheading {
+            list-style: none;
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+           
+         }
+         .items{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px;
+         }
+         li{
+            line-height: 40px;
+         }
+         a{
+            text-decoration: none;
+            color:rgb(250, 247, 247) ;
+         }
+         a:hover{
+            text-decoration: underline;
+         }
+         
+
+  </style>
+</head>
+<body >
+    <header id="homepage"  >
+       <span > Naresh Institute and Technologies</span>
+    </header>
+    <section>
+    <nav class="fstnav">
+        <div class="div1">
+            <span ><i class="bi bi-house"></i><a href="#homepage">Home</a></span>
+            <span><i class="bi bi-question-circle-fill"></i><a href="./about.html" target="_blank">About</a></span>
+            <span><i class="bi bi-question-circle-fill"></i><a href="#service">Service</a> </span>
+            <span><i class="bi bi-phone-fill"></i><a href="./contact.html">Conact us</a> </span>
+        </div>
+        
+        <div class="div2">
+            <span><i class="bi bi-box-arrow-in-right"></i> Sign In <i class="bi bi-caret-down-fill"></i></span>
+        </div>
+    </nav>
+    
+    <main class="fmn">
+        <img src="../image/a1.jpg" height="500px"width= 100%>
+    </main>
+    <main class="smn">
+        <div class="div3">
+           <span class="span1"> Show Me Whats In Package</span>
+        </div> 
+        <div class=" div3">
+            <span class="span2">What is the package</span>
+        </div>
+
+    </main>
+    <div >
+        <pre> * A package is a small container in which a quantity of something is sold. Packages are either small boxes made of
+                thin cardboard, or bags or envelopes made of paper or plastic. ... When a product is packaged, it is put into
+                 containers to be sold.
+        </pre>
+    </div>
+    
+    <main class="tmain">
+    <nav>
+        <table width="1050px"  rules="all" frame="box" >
+        <thead >
+                <tr height="70px"><th>Decument</th> <th > Included</th></tr>
+                <tr height="70px"><th>M.Tech</th> <th  class= "bi bi-check-square-fill" ></th></tr>
+                <tr height="70px"><th>B.Tech</th> <th class="bi bi-check-square-fill"></th></tr>
+                <tr height="70px"><th>MCA</th> <th class="bi bi-check-square-fill"></th></tr>
+
+            </thead>
+        </table>
+    </nav>
+    <main class="fmain">
+        <img src="../image/a2.jpg" height="250px" width="400px">
+    </main>
+</main>
+    <main class="smain">
+       <div class="smainu">What is The Job</div>
+        <div class="div4">
+            <div class="div5">
+               <span class="bi bi-keyboard-fill"></span>
+               <div>Type of jobs</div>
+               <p> Volcanologist. <br>
+                    Quantum physicist. ...
+                    Oceanographer. ...
+                    Biomedical engineer. ... </p>
+              
+            </div>
+            <div class="div5">
+                <span class="bi bi-file-earmark-word"> </span>
+               <div>Define job profile</div>
+               <p> 
+                Job profile developed by the
+                 personnel department of a 
+                 business might include such things
+                 as job responsibilities, required
+                 qualifications, advancement prospects. </p>
+              
+            </div>
+            <div class="div5">
+                <span class="bi bi-file-earmark-word-fill"> </span>
+               <div>Job profile summary</div>
+               <p> Profile summary is a summary of
+                 your education, skills, career
+                  experiences, and goals. </p>
+              
+            </div>
+            <div  class="div5">
+                <span class="bi bi-pc-display-horizontal"></span>
+               <div>The IT skills</div>
+               <p> Coding.
+                   Communication.
+                   Networks.
+                   Time Management.
+                   More Information Technology Skills. </p>
+              
+            </div>
+            <div  class="div5">
+                <span class="bi bi-pc-display-horizontal"></span>
+               <div >Freshers key skills</div>
+               <p>  Communication.
+                    Ability to Work Under Pressure.
+                    Decision Making.
+                    Time Management.
+                    Self-motivation.
+                    Conflict Resolution.
+                     personal skills?
+                     Leadership.
+                     Adaptability.</p>
+              
+            </div>
+            <div class="div5">
+                <span class="bi bi-pc-display-horizontal"></span>
+               <div  >Personal skills</div>
+               <p> A skill is the ability to do something 
+                well, a certain competence or
+                 proficiency. Skills are typically 
+                 acquired or developed through
+                 direct experiences and training,
+                  and they can require sustained effort. </p>
+              
+            </div>
+        </div>
+    </main>
+    <main >
+        <div class="div6">
+        <div>
+      <span class="cl1"><span class="bi bi-1-circle"></span></span> <span class="question"> Why do you want this job?</span>
+        <p class="question">
+            The hiring manager wants to: Learn about your career goals and how this position fits into your plan.Make sure that you are sincerely interested in the
+             job and will be motivated to perform if hired. 
+             Find out what you know about the company,industry, position (and if you took the time to research).
+            </p>
+    </div>
+    <div>
+        <img src="../image/ind1.jpg" height=200px width="400px">
+    </div>
+</div>
+<hr >
+
+<div class="div6">
+    <div>
+        <img src="../image/ind2.png" height="200"width300>
+    </div>
+    <div>
+       <span class="cl2"> <span class="bi bi-2-circle"></span></span><span class="question"> What is a CV example?</span>
+        <p class="question">A resume is a brief summary. ... If you were writing your resume you would include only the work information that relates
+         specifically to the job you're applying for, but for a Curriculum Vitae, you would also include all your teaching 
+             experience, lab and field work..</p>
+            </div>
+</div>
+<hr>
+<div class="div6">
+    <div>
+  <span class="cl1"><span class="bi bi-3-circle"></span></span> <span class="question">  Do you need a resume for your first job?</span>
+    <p class="question">
+        When writing your first resume with no work experience, it's appropriate to include casual jobs like babysitting, pet sitting, lawn mowing, and shoveling
+       snow. All experience counts and the way you present yourself, your skills, and your assets to a hiring manager begins with a strong resume.
+        </p>
+</div>
+<div>
+    <img src="../image/ind3.png" height=200px width="400px">
+</div>
+</div>
+<hr >
+<div class="div6">
+    <div>
+        <img src="../image/ind4.jpg" height="200"width300>
+    </div>
+    <div>
+       <span class="cl3"> <span class="bi bi-4-circle"></span></span><span class="question">Why do you think you can do well in this job?</span>
+        <p class="question">
+            I believe I will do well in this job because I have the relevant skills and it is my field of interest. ... I have a confident that I can do well in the job because of 
+            self confidence, positive attitude. Previous success also brings self confidence for the future success.
+            </p>
+            </div>
+</div>
+<div class="div7" >
+    <form name="callButton" class=" callButton" method="post"  >
+        <button name="reqButton" class="request"> request call back</button> &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;<button name="faqButton" class="faq">FAQ'S</button>
+    </form>
+</div>
+</main>
+<main class="eigmain">
+    <div class="div8">
+                 <span class="cl4"> Student Department Details</span> 
+    </div>
+    <div class="div9">
+        <div>
+          <span class="timer"> <span class="bi bi-hourglass"></span></span>
+          <div>
+            <P class="place">Average Salary Offered</P>
+            <span  class="package">INR 7 L per annum</span>
+            <p  class="dur">per annum</p>
+            
+          </div>
+        </div>
+        <div>
+            <span class="timer"> <span class="bi bi-arrow-repeat"></span></span>
+            <div>
+                <P class="place">Duration</P>
+                <span  class="package">2  </span>
+                <p  class="dur">years</p>
+                
+              </div>
+        </div>
+        <div>
+            <span class="timer"> <span class="bi bi-hand-thumbs-up"></span></span>
+            <div>
+                <P class="place">Average Fees Incurred</P>
+                <span  class="package">INR 25,000 - 2 L</span>
+                <p  class="dur">per annum</p>
+                
+              </div>
+        </div>
+        <div>
+            <span class="timer"> <span  class="bi bi-flag"></span></span>
+            <div>
+                <P class="place">Indian Institute of Technology, [IIT] Kanpur</P>
+                <span class="package">49,035 </span>
+                <p  class="dur"> Kanpur</p>
+                
+              </div>
+        </div>
+        
+    </div>
+    <div class="bline">
+        * job: A group of homogeneous tasks related by similarity of functions.
+    </div>
+</main>
+<main class=" nimain" id="service">
+    <div class="services">
+       <h1> Services</h1>
+    </div>
+    <div class="ftop">
+        <div class="ftopimg">
+           <img src="../image/s1.jpg" width="300px" height="180px">
+           <h3> WEB DESIGN !!</h3>
+         <p>
+            Online ordering system helps to maintain a Better Business Relationship with your customers, which is a key factor to run any successful business.</p>
+        </div>
+        <div class="ftopimg">
+            <img src="../image/s2.jpg"width="300px" height="180px">
+            <h3> IT SERVICES !!</h3>
+
+           <p>  We are ideally located in Larbert meaning we can offer IT support to businesses throughout Scotland. We take the hassle and worry out of your IT system by providing preventative and proactive IT support.</p>
+        </div>
+        <div class="ftopimg">
+            <img src="../image/s3.png" width="300px" height="180px">
+          <h3> WEB MARKETING !!</h3>
+
+     <p> We are passionate about digital content creation, strategy and delivery. We deliver results by designing marketing strategies which improve our clients brand visibility.</p>
+        </div>
+    </div>
+</main>
+
+</section>
+<footer>
+    <ol class="footerheading" >
+        <li>
+            Naresh Technologies
+        </li>
+    </ol>
+    <ol class="items" >
+    <ul>
+           <li class="bi bi-facebook">Facebook</li>
+            <li class="bi bi-google">Google</li>
+           <li class="bi bi-twitter"> Twitter</li>
+           <li class="bi bi-youtube"> Youtube</li>
+     </ul>
+     <ul>
+       <li ><a href="#homepage">Home</a> </li>
+       <li><a href="#homepage"> About</a> </li>
+        <li><a href="#homepage"> Service</a></li>
+        <li><a href="#homepage">Contact</a> </li>
+     </ul>
+     <ul>
+        <li>Name : Naresh Istitute</li>
+        <li>Email : info@nareshit.com</li>
+         <li>Contact : +91-xxxxxxxxxx</li>
+          <li>Address : Sr nagar, Hyderabad, Telangana, India</li>
+    
+     </ul>
+</footer>
+
+    
+</body>
+</html>
